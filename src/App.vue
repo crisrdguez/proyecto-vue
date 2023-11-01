@@ -1,10 +1,13 @@
 <template>
-<ModelForm/>
+    <div>
+        <ComputedExample/>
+    </div>
+
 </template>
 
 <script setup>
  //import ModelForm from "@/components/ModelForm.vue"; //si no le doy name en el componente
- import ModelForm from './components/ModelForm.vue';
+ import ComputedExample from '@/components/ComputedExample.vue';
 </script>
 
 <style>
